@@ -1,0 +1,24 @@
+This is a Monte-Carlo Path Tracer written in Java. Be warned, I don't actually
+think it compiles.
+
+FEATURES:
+
+Materials can have varying levels of the following:
+    - reflection (RGB)
+    - transmission (RGB)
+    - absorbtion (RGB)
+
+Paths bounce until one of the following happens:
+    - a terminal object is encountered (e.g. some lamps, the sky)
+    - the compile-time constant is reached
+
+Mathematical algorithms all hand written by a high schooler and deemed horribly
+inefficient by that same student two years later.
+
+Thread class used for parallelization. After all, ray tracers are
+"Embarrassingly parallel".
+
+I think there might even be some hidden keybindings that bring up forgotten
+features. If you see a "save as png" it may not actually save anything, idk.
+
+Good luck with this piece of shit!
