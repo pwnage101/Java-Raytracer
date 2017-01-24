@@ -9,7 +9,6 @@ import java.util.Queue;
 import java.util.Set;
 import java.util.TreeMap;
 import raytracer.geom.*;
-import raytracer.Radiance;
 import raytracer.util.DataHolder;
 
 public class Camera implements DataHolder{
